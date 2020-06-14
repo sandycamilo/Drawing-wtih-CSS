@@ -1,0 +1,343 @@
+.Images, .Images2, .Images3, .Images4 {
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 22px;
+    height: 100px;
+    width: 500px;
+    background: rgb(255, 255, 255);
+    border: solid;
+    border-width: 2px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+}
+
+.box-with-border {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border: solid;
+    border-color: black;
+}
+
+.box-with-curve {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border: solid;
+    border-color: black;
+    border-bottom-left-radius: 62%;
+}
+
+.leaf {
+    width: 100px;
+    height: 100px;
+    background: greenyellow;
+    border: solid;
+    border-color: black;
+    border-bottom-left-radius: 62%;
+    border-bottom-right-radius: 62%;
+    border-top-right-radius: 62%;
+}
+
+.lemon {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    border: solid;
+    border-color: black;
+    border-bottom-left-radius: 52%;
+    border-top-right-radius: 52%;
+}
+
+.square-with-line {
+    width: 100px;
+    height: 100px;
+    border: solid;
+    border-color: black;
+}
+
+.line {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 60px;
+    height: 20px;
+    background: black;
+}
+
+.square-two-lines {
+    width: 100px;
+    height: 100px;
+    background: darkblue;
+    border: solid;
+    border-color: black;
+}
+
+.lines1 {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 60px;
+    height: 20px;
+    background: yellow;
+}
+
+.lines {
+    position: relative;
+    top: 40px;
+    left: 20px;
+    width: 60px;
+    height: 20px;
+    background: yellow;
+}
+
+.square-plus {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border: solid;
+    border-color: black;
+}
+
+.line1 {
+    position: relative;
+    top: 25px;
+    left: 40px;
+    width: 20px;
+    height: 56px;
+    background: white;
+}
+
+.line2 {
+    position: relative;
+    top: -12px;
+    left: 23px;
+    width: 55px;
+    height: 20px;
+    background: white;
+}
+
+.square-x {
+    width: 100px;
+    height: 100px;
+    border: solid;
+    border-color: black;
+}
+
+.linex {
+    position: relative;
+    top: 25px;
+    left: 40px;
+    width: 20px;
+    height: 56px;
+    background: black;
+    transform: rotate(45deg)
+}
+
+.linexx {
+    position: relative;
+    top: -31px;
+    left: 40px;
+    width: 20px;
+    height: 56px;
+    background: black; 
+    transform: rotate(-45deg)  
+}
+
+.circle-x {
+    width: 100px;
+    height: 100px;
+    border: solid;
+    border-color: black;
+    border-bottom-left-radius: 52%;
+    border-top-right-radius: 52%;
+    border-top-left-radius: 52%;
+    border-bottom-right-radius: 52%;
+}
+
+.circle-next {
+    width: 100px;
+    height: 100px;
+    border: solid;
+    border-color: black;
+    border-bottom-left-radius: 52%;
+    border-top-right-radius: 52%;
+    border-top-left-radius: 52%;
+    border-bottom-right-radius: 52%;
+}
+
+.arrow1 {
+    position: relative;
+    top: 35px;
+    left: 50px;
+    width: 35px;
+    height: 9px;
+    background: black;
+    transform: rotate(40deg) 
+}
+
+.arrow2 {
+    position: relative;
+    top: 43px;
+    left: 50px;
+    width: 35px;
+    height: 9px;
+    background: black;
+    transform: rotate(-40deg) 
+}
+
+.arrow-line {
+    position: relative;
+    top: 25px;
+    left: 20px;
+    width: 55px;
+    height: 10px;
+    background: black;
+}
+
+.square-face {
+    width: 100px;
+    height: 100px;
+    background: rgb(201, 193, 193);
+    border: solid;
+    border-color: black;
+}
+
+.eye {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50%;
+    border: solid;
+    border-color: black;
+}
+
+.eye2 {
+    position: relative;
+    top: -12px;
+    left: 55px;
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50%;
+    border: solid;
+    border-color: black;
+}
+
+.mouth {
+    position: relative;
+    top: -2px;
+    left: 20px;
+    width: 54px;
+    height: 10px;
+    background: red;
+    border: solid;
+    border-color: black;
+    border-bottom-left-radius: 22%;
+    border-top-right-radius: 22%;
+    border-top-left-radius: 22%;
+    border-bottom-right-radius: 22%;
+}
+
+.suqare-vamp-face {
+    width: 100px;
+    height: 100px;
+    border: solid;
+    border-color: black;
+    border-bottom-left-radius: 32%;
+    border-top-right-radius: 22%;
+    border-top-left-radius: 22%;
+    border-bottom-right-radius: 32%;
+}
+
+.lemoneye {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    border: solid;
+    border-color: black;
+    border-bottom-left-radius: 52%;
+    border-top-right-radius: 52%;
+    border-bottom-right-radius: 40%;
+}
+
+.lemoneye2 {
+    position: relative;
+    top: -12px;
+    left: 55px;
+    width: 20px;
+    height: 20px;
+    border: solid;
+    border-color: black;
+    border-top-left-radius: 52%;
+    border-bottom-right-radius: 52%;
+    border-bottom-left-radius: 40%;
+}
+
+.eyeball {
+    position: relative;
+    top: 10px;
+    width: 15px;
+    height: 15px;
+    background: black;
+    border-radius: 50%;
+}
+
+.eyeball2 {
+    position: relative;
+    top: 10px;
+    width: 15px;
+    height: 15px;
+    background: black;
+    border-radius: 50%;
+}
+
+.vampmouth {
+    position: relative;
+    top: 1px;
+    left: 25px;
+    width: 60px;
+    height: 6px;
+    background: black;
+}
+
+.tooth {
+    position: relative;
+    top: 9px;
+    left: -3px;
+    width: 0px;
+    height: 0px;
+    border-bottom: 10px solid black;
+    border-right: 16px solid transparent;
+    transform: rotate(89deg);
+}
+
+.tooth2 {
+    position: relative;
+    top: -5px;
+    left: 47px;
+    width: 0px;
+    height: 0px;
+    border-bottom: 10px solid black;
+    border-left: 16px solid transparent;
+    transform: rotate(-90deg);
+}
+
+.
