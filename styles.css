@@ -416,7 +416,7 @@
 
 .kirbybody {
     position: relative;
-    top: 25px;
+    top: 5px;
     left: 25px;
     width: 55px;
     height: 55px;
@@ -473,7 +473,7 @@
 
 .foot1 {
     position: relative;
-    top: 9px;
+    top: 65px;
     left: 20px;
     width: 26px;
     height: 20px;
